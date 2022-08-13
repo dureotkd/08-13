@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../index.css" />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="data:image/png;base64,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"
+          alt="logo"
+          class="logo"
+        />
+      </header>
+      <section class="join-section">
+        <form id="join-form">
+          <h1 class="h1-text">회원가입</h1>
+
+          <div class="form-box">
+            <span>이메일</span>
+            <input
+              type="text"
+              name="email"
+              class="ant-input"
+              placeholder="개인 이메일 입력"
+            />
+            <!-- <i class="fa-solid fa-ban warning"></i> -->
+            <!-- <span>잘못된 이메일 양식입니다.</span> -->
+          </div>
+
+          <div class="form-box">
+            <span>비밀번호</span>
+            <input
+              type="password"
+              name="password"
+              class="ant-input"
+              placeholder="개인 비밀번호 입력"
+            />
+          </div>
+
+          <div class="form-box">
+            <span>비밀번호 재입력</span>
+            <input
+              type="password"
+              name="passwordConfirm"
+              class="ant-input"
+              placeholder="개인 비밀번호 재 입력"
+            />
+          </div>
+
+          <div class="btn-box">
+            <!--disabled: 기능비활성화-->
+            <button
+              type="button"
+              class="ant-btn join-success-btn"
+              disabled="disabled"
+            >
+              <span>가입하기</span>
+            </button>
+
+            <a class="link-btn" href="../">로그인</a>
+          </div>
+        </form>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../common/index.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
